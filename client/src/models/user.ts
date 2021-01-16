@@ -122,7 +122,7 @@ const UserModels: ModelsType = {
   subscriptions: {
     setup({ dispatch, history }) {
       return history.listen(({ pathname }) => {
-        if (pathname === '/shop/user') {
+        if (pathname === '/shop/1/user') {
           dispatch({
             type: 'query',
           })
